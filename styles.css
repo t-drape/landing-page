@@ -24,20 +24,27 @@ a {
 button {
     width: 100px;
     flex-grow: 0;
+    padding: 6px;
 }
-
 
 
 .header {
     display: flex;
     color: #F9FAF8;
     font-size: 24px;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 16px;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
     padding: 16px;
 }
 
-
 .first {
+    width: 450px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -55,10 +62,11 @@ button {
 }
 
 .card {
-    width: 450px;
+    width: 500px;
     height: 200px;
     background-color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: flex-end;
 }
