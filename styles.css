@@ -25,6 +25,7 @@ button {
     width: 100px;
     flex-grow: 0;
     padding: 6px;
+    margin-top: 10px;
 }
 
 
@@ -33,14 +34,17 @@ button {
     color: #F9FAF8;
     font-size: 24px;
     justify-content: space-between;
+    margin: 100px;
+    margin-top: 0;
     padding: 16px;
-    margin-bottom: 50px;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     padding: 16px;
+    margin: 100px;
+    margin-top: 0;
 }
 
 .first {
@@ -69,4 +73,42 @@ button {
     justify-content: center;
     align-items: center;
     align-self: flex-end;
+}
+
+.content {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+.item > .subtext {
+    color: grey;
+}
+
+.square {
+    width: 175px;
+    height: 175px;
+    border: 5px solid blue;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.items {
+    display: flex;
+    gap: 100px;
+}
+
+.item {
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
