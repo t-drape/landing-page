@@ -12,6 +12,7 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 
 }
 
@@ -37,6 +38,7 @@ button {
     margin: 100px;
     margin-top: 0;
     padding: 16px;
+    flex-wrap: wrap;
 }
 
 .container {
@@ -45,6 +47,8 @@ button {
     padding: 16px;
     margin: 100px;
     margin-top: 0;
+    gap: 100px;
+    flex-wrap: wrap;
 }
 
 .first {
@@ -75,11 +79,16 @@ button {
     align-self: flex-end;
 }
 
-.content {
+.middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.content_1 {
     background-color: aliceblue;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     gap: 100px;
 }
 
@@ -97,6 +106,9 @@ button {
 
 .items {
     display: flex;
+    margin-bottom: 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
     gap: 100px;
 }
 
@@ -111,4 +123,32 @@ button {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    margin-top: 50px;
 }
+
+.content_2 {
+    background-color: #E5E7EB;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.full_quote {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.cite {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
