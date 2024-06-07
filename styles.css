@@ -146,6 +146,7 @@ button {
     width: 900px;
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
 .quote {
@@ -193,6 +194,14 @@ button {
 
 .cta > .subtext {
     font-weight: normal;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    color: #F9FAF8;
 }
 
 
