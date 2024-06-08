@@ -137,6 +137,24 @@ svg {
     gap: 100px;
 }
 
+.gallery > ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery > li {
+    height: 40vh;
+    flex-grow: 1;
+}
+
+.gallery > img {
+    
+    max-height: 10%;
+    min-width: 10%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
 .item > .subtext {
     color: grey;
 }
