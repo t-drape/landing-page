@@ -4,3 +4,7 @@ Prior to starting:
 
 After Finishing:
     This project was my very first true web page. Through it, I used many, if not all, of the Flexbox tools I learned through TOP. I found the project challenging, and I also found myself researching different CSS topics to make my design match. In the end, while not perfect, I felt I achieved a close resemblance to the template. I tested my skills, and now have a much deeper understanding of the concepts. I still have much more to learn, but this project made the creation of websites seem not as daunting, and the goal of creating my own aesthetic, pleasing-to-the-eve websites seem much more attainable.
+
+Research Sources: 
+    For adding gradient over an image, I found this helpful video by ByteGrad: 
+    (url) https://www.youtube.com/watch?v=5CztcrXpfec
